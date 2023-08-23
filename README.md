@@ -68,6 +68,6 @@ However we see maximum strategy returns(of 38.7%) with 3 months training window 
 ![Actual returns vs Strategy Returns plot with 6 months training period](Images/plot_with_AdaBoost.png)
 
 
-**Conclusion:** Accuracy wise we can see that our models achieved around 50% but when it comes to returns, maximum performance for both SVM and AdaBoost classifiers was observed with 6 months training window, as our strategy returns reach maximum 73.57 where actual retrns are 56.04
+**Conclusion:** Accuracy wise we can see that our models reached around 50% but when it comes to returns, maximum performance for both SVM and AdaBoost classifiers was observed with 6 months training window, as our strategy returns reach maximum 73.57 where actual retrns are 56.04
 Hence the best model performance happened at training time of 6 months SMA windows: slow = 48 , fast = 101. 
 Both models performance was observed to be similar with this dataset.
