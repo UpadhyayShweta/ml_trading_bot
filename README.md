@@ -46,25 +46,33 @@ As part of your GitHub repository’s README.md file, you will also create a rep
 Here we experimented on trainin window, with SMA fast window = 4 and SMA slow = 100, to find the best performing training time for the model. 
 **_Observation:** when training window is increased from 3 months to 10 months we observed a slight increase of 1% in accuracy, 1% increase for +1 signal in precision recall and 1% decrease for -1 signal whereas upon decreaseing the training window by 1 month there is a slight decrease of 2% in accuracy, no change in recall values but decrease in precision for -1 signal.
 However we see maximum strategy returns(of 38.7%) with 3 months training window then compared to 10 or 1 months
-> Another observation, when we increased both of the SMA windows-> slow window= 48(from 4) and fast window-> 101(from 100) with training period same as 3 months, strategy returns traced actual returns initially then ended greater than actual return after march 2020. Also recall for signal = 1 reached 100% from 96%
 
+>Classification Report for SVM model with 3 months training period
 ![Classification Report for SVM model with 3 months training period](Images/clf_report_svm_tt_3m.png)
 
+>Classification Report for SVM model with 1 months training period
 ![Classification Report for SVM model with 1 months training period](Images/clf_report_tt_1m.png)
 
+>Classification Report for SVM model with 10 months training period
 ![Classification Report for SVM model with 10 months training period](Images/clf_report_tt_10m.png)
 
+>Actual returns vs Strategy Returns plot with 3 months training period
 ![Actual returns vs Strategy Returns plot with 3 months training period](Images/plot_tt_3m_svm.png)
 
+>Actual returns vs Strategy Returns plot with 1 months training period
 ![Actual returns vs Strategy Returns plot with 1 months training period](Images/plot_tt_1m_svm.png)
 
+>Actual returns vs Strategy Returns plot with  10 months training period
 ![Actual returns vs Strategy Returns plot with  10 months training period](Images/plot_tt_10m_svm.png)
 
+> Another observation, when we increased both of the SMA windows-> slow window= 48(from 4) and fast window-> 101(from 100) with training period same as 3 months, strategy returns traced actual returns initially then ended greater than actual return after march 2020. Also recall for signal = 1 reached 100% from 96%
 
 #### With AdaBoost Classifier
 
+>Classification Report for AdaBoost model with 6 months training period
 ![Classification Report for AdaBoost model with 6 months training period](Images/clf_report_AdaBoost.png)
 
+>Actual returns vs Strategy Returns plot with 6 months training period
 ![Actual returns vs Strategy Returns plot with 6 months training period](Images/plot_with_AdaBoost.png)
 
 
