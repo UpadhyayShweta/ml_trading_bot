@@ -36,7 +36,7 @@ The steps for this analysis are divided into the following sections:
 
 As part of your GitHub repository’s README.md file, you will also create a report that compares the performance of the machine learning models based on the trading predictions that each makes and the resulting cumulative strategy returns.
 #### With SVM classifier 
-![Classification Report for SVM model with 3 months training period](Images/clf report_svm_tt_3m.png)
+![Classification Report for SVM model with 3 months training period](Images/clf_report_svm_tt_3m.png)
 ![Classification Report for SVM model with 1 months training period](Images/clf_report_tt_1m.png)
 ![Classification Report for SVM model with 10 months training period](Images/clf_report_tt_10m.png)
 ![Actual returns vs Strategy Returns plot with 3 months training period](Images/plot_tt_3m_svm.png)
@@ -44,5 +44,5 @@ As part of your GitHub repository’s README.md file, you will also create a rep
 ![Actual returns vs Strategy Returns plot with  10 months training period](Images/plot_tt_10m_svm.png)
 
 #### With AdaBoost Classifier
-![Classification Report for SVM model with 3 months training period](Images/clf _report_AdaBoost .png)
+![Classification Report for AdaBoost model with 3 months training period](Images/clf_report_AdaBoost .png)
 ![Actual returns vs Strategy Returns plot with 3 months training period](Images/plot_with_AdaBoost.png)
